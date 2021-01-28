@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.neusoft'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    mavenLocal()
+    mavenCentral()
+}
+
+subprojects{
+    apply plugin: "java-library"
+    dependencies{
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+        implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.3'
+    }
+}

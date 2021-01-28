@@ -1,0 +1,3 @@
+rootProject.name = 'spring-study'
+include 'spring-01-ioc'
+
