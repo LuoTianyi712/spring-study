@@ -1,4 +1,5 @@
 import com.neusoft.pojo.User;
+import com.neusoft.pojo.UserTwo;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -7,10 +8,8 @@ public class ApplicationTest {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
-        User user = (User) context.getBean("user");
+        UserTwo user = (UserTwo) context.getBean("u2");
         user.show();
 
-        User user2 = (User) context.getBean("user");
-        System.out.println(user==user2);
     }
 }

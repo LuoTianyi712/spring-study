@@ -4,23 +4,17 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<!--    <bean id="user" class="com.neusoft.pojo.User">-->
-<!--        <property name="name" value="111"/>-->
-<!--    </bean>-->
-
-<!--    <bean id="user" class="com.neusoft.pojo.User">-->
-<!--        <constructor-arg index="0" value="A-10"/>-->
-<!--    </bean>-->
-<!--    <bean id="user" class="com.neusoft.pojo.User">-->
-<!--        <constructor-arg type="java.lang.String" value="P-996"/>-->
-<!--    </bean>-->
-
     <bean id="user" class="com.neusoft.pojo.User">
         <constructor-arg name="name" value="apache"/>
     </bean>
 
-    <bean id="userTwo" class="com.neusoft.pojo.UserTwo">
-
+    <!--
+        id：Bean的唯一标识符，也就相当于对象名
+        class：bean对象所对应的类型（全限定名）
+        name：也是别名，可以同时取多个别名
+    -->
+    <bean id="userTwo" class="com.neusoft.pojo.UserTwo" name="two u2">
+        <property name="name" value="U47"/>
     </bean>
 
 </beans>
