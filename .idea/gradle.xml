@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/spring-02-hellospring" />
             <option value="$PROJECT_DIR$/spring-03-createioc" />
             <option value="$PROJECT_DIR$/spring-04-di" />
+            <option value="$PROJECT_DIR$/spring-05-autowired" />
           </set>
         </option>
       </GradleProjectSettings>

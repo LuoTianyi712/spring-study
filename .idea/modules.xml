@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-04-di.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-04-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-05-autowired.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-05-autowired.iml" />
     </modules>
   </component>
 </project>
