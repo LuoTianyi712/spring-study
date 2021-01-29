@@ -4,8 +4,23 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<!--    <bean id="user" class="com.neusoft.pojo.User">-->
+<!--        <property name="name" value="111"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="user" class="com.neusoft.pojo.User">-->
+<!--        <constructor-arg index="0" value="A-10"/>-->
+<!--    </bean>-->
+<!--    <bean id="user" class="com.neusoft.pojo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="P-996"/>-->
+<!--    </bean>-->
+
     <bean id="user" class="com.neusoft.pojo.User">
-        <property name="name" value="AF"/>
+        <constructor-arg name="name" value="apache"/>
+    </bean>
+
+    <bean id="userTwo" class="com.neusoft.pojo.UserTwo">
+
     </bean>
 
 </beans>

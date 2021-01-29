@@ -1,8 +1,11 @@
 package com.neusoft.pojo;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
 public class User {
     private String name;
 

@@ -10,5 +10,7 @@ public class ApplicationTest {
         User user = (User) context.getBean("user");
         user.show();
 
+        User user2 = (User) context.getBean("user");
+        System.out.println(user==user2);
     }
 }
