@@ -4,9 +4,68 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--复杂类型引用-->
+    <bean id="address" class="com.neusoft.pojo.Address">
+        <property name="address" value="北京"/>
+    </bean>
+
     <bean id="student" class="com.neusoft.pojo.Student">
         <!--第一种：普通值注入 设置value-->
-        <property name="name" value="阿飞"/>
+        <property name="name" value="张三"/>
+
+        <!--1：Bean注入，ref引用-->
+        <property name="address" ref="address"/>
+
+        <!--2：数组注入-->
+        <property name="book">
+            <array>
+                <value>红楼梦</value>
+                <value>西游记</value>
+                <value>三国演义</value>
+                <value>水浒传</value>
+            </array>
+        </property>
+
+        <!--3:List注入-->
+        <property name="hobbies">
+            <list>
+                <value>上网</value>
+                <value>唱歌</value>
+                <value>写作</value>
+            </list>
+        </property>
+
+        <!--4:Map注入-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="111111222222223333"/>
+                <entry key="银行卡" value="2145654654231"/>
+            </map>
+        </property>
+
+        <!--5:set注入-->
+        <property name="games">
+            <set>
+                <value>英雄联盟</value>
+                <value>绝地求生</value>
+                <value>穿越火线</value>
+            </set>
+        </property>
+
+        <!--6:Null注入-->
+        <property name="wife">
+            <null/>
+        </property>
+
+        <!--7:properties-->
+        <property name="info">
+            <props>
+                <prop key="学号">20210001</prop>
+                <prop key="性别">男</prop>
+                <prop key="姓名">张三</prop>
+            </props>
+        </property>
+
     </bean>
 
 </beans>
