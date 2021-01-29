@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/spring-01-ioc" />
+            <option value="$PROJECT_DIR$/spring-02-hellospring" />
           </set>
         </option>
       </GradleProjectSettings>

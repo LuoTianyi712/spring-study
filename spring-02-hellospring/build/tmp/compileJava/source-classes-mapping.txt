@@ -1,0 +1,2 @@
+com/neusoft/pojo/HelloWorld.java
+ com.neusoft.pojo.HelloWorld

@@ -1,3 +1,4 @@
 rootProject.name = 'spring-study'
 include 'spring-01-ioc'
+include 'spring-02-hellospring'
 
