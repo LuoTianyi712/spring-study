@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-01-ioc.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-01-ioc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-02-hellospring.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-02-hellospring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-03-createioc.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-03-createioc.iml" />
     </modules>
   </component>
 </project>
