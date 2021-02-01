@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-01T06:11:20" hostname="6X1XM63-LIUFEIY" time="0.296">
+  <properties/>
+  <testcase name="test()" classname="SpringApplicationTest" time="0.296"/>
+  <system-out><![CDATA[User(name=java)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
