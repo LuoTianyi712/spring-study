@@ -1,6 +1,6 @@
-com/neusoft/pojo/People.java
- com.neusoft.pojo.People
-com/neusoft/pojo/Cat.java
- com.neusoft.pojo.Cat
 com/neusoft/pojo/Dog.java
  com.neusoft.pojo.Dog
+com/neusoft/pojo/Cat.java
+ com.neusoft.pojo.Cat
+com/neusoft/pojo/People.java
+ com.neusoft.pojo.People

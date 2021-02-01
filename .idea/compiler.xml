@@ -12,6 +12,7 @@
         <module name="spring-study.spring-05-autowired.main" />
         <module name="spring-study.spring-04-di.main" />
         <module name="spring-study.spring-02-hellospring.main" />
+        <module name="spring-study.spring-06-anno.main" />
         <module name="spring-study.spring-03-createioc.main" />
       </profile>
     </annotationProcessing>

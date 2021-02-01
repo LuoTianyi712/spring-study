@@ -9,7 +9,7 @@
     <!--p命名空间注入，可以直接注入属性的值：property-->
     <bean id="user" class="com.neusoft.pojo.User" p:name="p" p:age="18"/>
 
-    <!--c命名空间注入，通过构造器注入constructor-args-->
+    <!--c命名空间注入，通过构造器注入 constructor-args-->
     <bean id="user2" class="com.neusoft.pojo.User" c:name="c" c:age="21"/>
 
     <bean id="user3" class="com.neusoft.pojo.User" c:name="c" c:age="21" scope="prototype"/>

@@ -25,5 +25,7 @@ public class SpringApplicationTest {
         User user2 = context.getBean("user3",User.class);
         System.out.println(user==user2);
 //        System.out.println(user);
+        System.out.println(user.hashCode());
+        System.out.println(user2.hashCode());
     }
 }

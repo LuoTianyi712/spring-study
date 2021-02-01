@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
 
     <bean id="cat" class="com.neusoft.pojo.Cat"/>
+    <bean id="cat111" class="com.neusoft.pojo.Cat"/>
     <bean id="dog" class="com.neusoft.pojo.Dog"/>
 
-    <!--
-        byName：会自动在容器上下文中查找，和自己对象set方法后面的值对应的bean_id，
-        区分大小写，检测为小写id，匹配形参名和bean_id
-    -->
-
-    <bean id="people" class="com.neusoft.pojo.People" autowire="byName">
-        <property name="name" value="petter"/>
-    </bean>
-
-    <!--
-        byType：会自动在容器上下文中查找，和自己对象属性类型相同的bean，
-    -->
-
-    <bean id="people1" class="com.neusoft.pojo.People" autowire="byType">
-        <property name="name" value="petter"/>
-    </bean>
+    <bean id="people" class="com.neusoft.pojo.People"/>
 
 </beans>

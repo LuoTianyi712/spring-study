@@ -4,4 +4,5 @@ include 'spring-02-hellospring'
 include 'spring-03-createioc'
 include 'spring-04-di'
 include 'spring-05-autowired'
+include 'spring-06-anno'
 
