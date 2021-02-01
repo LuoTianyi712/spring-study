@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/spring-05-autowired" />
             <option value="$PROJECT_DIR$/spring-06-anno" />
             <option value="$PROJECT_DIR$/spring-07-appconfig" />
+            <option value="$PROJECT_DIR$/spring-08-proxy" />
           </set>
         </option>
       </GradleProjectSettings>

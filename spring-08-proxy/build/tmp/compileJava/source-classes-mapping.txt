@@ -1,0 +1,28 @@
+com/neusoft/demo01/Host.java
+ com.neusoft.demo01.Host
+com/neusoft/demo02/UserService.java
+ com.neusoft.demo02.UserService
+com/neusoft/demo01/Rent.java
+ com.neusoft.demo01.Rent
+com/neusoft/demo01/Proxy.java
+ com.neusoft.demo01.Proxy
+com/neusoft/demo01/Client.java
+ com.neusoft.demo01.Client
+com/neusoft/demo02/UserServiceImpl.java
+ com.neusoft.demo02.UserServiceImpl
+com/neusoft/demo02/UserServiceProxy.java
+ com.neusoft.demo02.UserServiceProxy
+com/neusoft/demo02/Client.java
+ com.neusoft.demo02.Client
+com/neusoft/demo03/Rent.java
+ com.neusoft.demo03.Rent
+com/neusoft/demo03/Host.java
+ com.neusoft.demo03.Host
+com/neusoft/demo03/Client.java
+ com.neusoft.demo03.Client
+com/neusoft/demo03/ProxyInvocationHandler.java
+ com.neusoft.demo03.ProxyInvocationHandler
+com/neusoft/demo04/ProxyInvocationHandler.java
+ com.neusoft.demo04.ProxyInvocationHandler
+com/neusoft/demo04/Client.java
+ com.neusoft.demo04.Client

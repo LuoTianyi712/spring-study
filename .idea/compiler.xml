@@ -12,6 +12,7 @@
         <module name="spring-study.spring-03-createioc.main" />
         <module name="spring-study.spring-01-ioc.main" />
         <module name="spring-study.spring-07-appconfig.main" />
+        <module name="spring-study.spring-08-proxy.main" />
         <module name="spring-study.spring-05-autowired.main" />
         <module name="spring-study.spring-04-di.main" />
         <module name="spring-study.spring-02-hellospring.main" />
