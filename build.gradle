@@ -19,5 +19,7 @@ subprojects{
 
         compileOnly 'org.projectlombok:lombok:1.18.16'
         annotationProcessor 'org.projectlombok:lombok:1.18.16'
+
+        implementation group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
     }
 }

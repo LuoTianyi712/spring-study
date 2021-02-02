@@ -15,6 +15,7 @@
         <module name="spring-study.spring-08-proxy.main" />
         <module name="spring-study.spring-05-autowired.main" />
         <module name="spring-study.spring-04-di.main" />
+        <module name="spring-study.spring-09-aop.main" />
         <module name="spring-study.spring-02-hellospring.main" />
       </profile>
     </annotationProcessing>

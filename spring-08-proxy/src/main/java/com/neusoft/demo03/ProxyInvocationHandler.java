@@ -13,7 +13,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
         this.rent = rent;
     }
 
-    // 生成得到的代理类
+    // 生成得到的代理类，获取代理对象
     public Object getProxy(){
         return Proxy.newProxyInstance(
                 this.getClass().getClassLoader(),
