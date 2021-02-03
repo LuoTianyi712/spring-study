@@ -9,4 +9,5 @@ include 'spring-07-appconfig'
 include 'spring-08-proxy'
 include 'spring-09-aop'
 include 'spring-10-mybatis'
+include 'spring-11-transaction'
 

@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/spring-08-proxy" />
             <option value="$PROJECT_DIR$/spring-09-aop" />
             <option value="$PROJECT_DIR$/spring-10-mybatis" />
+            <option value="$PROJECT_DIR$/spring-11-transaction" />
           </set>
         </option>
       </GradleProjectSettings>

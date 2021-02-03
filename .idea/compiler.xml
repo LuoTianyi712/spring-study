@@ -10,6 +10,7 @@
         </processorPath>
         <module name="spring-study.spring-10-mybatis.main" />
         <module name="spring-study.spring-06-anno.main" />
+        <module name="spring-study.spring-11-transaction.main" />
         <module name="spring-study.spring-03-createioc.main" />
         <module name="spring-study.spring-01-ioc.main" />
         <module name="spring-study.spring-07-appconfig.main" />
