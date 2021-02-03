@@ -1,4 +1,4 @@
-com/neusoft/pojo/User.java
- com.neusoft.pojo.User
 com/neusoft/pojo/UserTwo.java
  com.neusoft.pojo.UserTwo
+com/neusoft/pojo/User.java
+ com.neusoft.pojo.User

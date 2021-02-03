@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-01T06:11:20" hostname="6X1XM63-LIUFEIY" time="0.296">
+<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-02T08:33:52" hostname="6X1XM63-LIUFEIY" time="0.27">
   <properties/>
-  <testcase name="test()" classname="SpringApplicationTest" time="0.296"/>
+  <testcase name="test()" classname="SpringApplicationTest" time="0.27"/>
   <system-out><![CDATA[User(name=java)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

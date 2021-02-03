@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-29T09:51:39" hostname="6X1XM63-LIUFEIY" time="0.32">
+<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-02T08:33:48" hostname="6X1XM63-LIUFEIY" time="0.243">
   <properties/>
-  <testcase name="test2()" classname="SpringApplicationTest" time="0.32"/>
+  <testcase name="test2()" classname="SpringApplicationTest" time="0.243"/>
   <system-out><![CDATA[false
+326626936
+1930385759
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

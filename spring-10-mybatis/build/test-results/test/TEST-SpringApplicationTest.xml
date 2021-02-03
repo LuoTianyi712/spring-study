@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-03T03:37:30" hostname="6X1XM63-LIUFEIY" time="0.871">
+  <properties/>
+  <testcase name="testSpringMybatis()" classname="SpringApplicationTest" time="0.871"/>
+  <system-out><![CDATA[User(id=1, name=TOM, pwd=123)
+User(id=2, name=JERRY, pwd=321)
+User(id=3, name=STEAV, pwd=456)
+User(id=4, name=JOHN, pwd=654)
+User(id=5, name=SAM, pwd=789)
+User(id=6, name=OREA, pwd=987)
+User(id=7, name=abc, pwd=111)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

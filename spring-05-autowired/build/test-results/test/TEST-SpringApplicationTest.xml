@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-01T03:41:24" hostname="6X1XM63-LIUFEIY" time="0.344">
+<testsuite name="SpringApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-02T08:33:50" hostname="6X1XM63-LIUFEIY" time="0.355">
   <properties/>
-  <testcase name="test1()" classname="SpringApplicationTest" time="0.344"/>
+  <testcase name="test1()" classname="SpringApplicationTest" time="0.355"/>
   <system-out><![CDATA[喵~
 汪~
 ]]></system-out>
