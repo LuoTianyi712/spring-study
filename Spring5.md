@@ -48,13 +48,13 @@ compile group: 'org.springframework', name: 'spring-jdbc', version: '5.3.3'
 
 ### 1.3、组成
 
-![img](https://images2017.cnblogs.com/blog/1219227/201709/1219227-20170930225010356-45057485.gif)
+![img](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/1219227-20170930225010356-45057485.gif)
 
 　
 
 ### 1.4、扩展
 
-![image-20210128145251084](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210128145251084.png)
+![image-20210128145251084](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210128145251084.png)
 
 - spring boot
   - 一个快速开发的脚手架
@@ -77,7 +77,7 @@ compile group: 'org.springframework', name: 'spring-jdbc', version: '5.3.3'
 
 原先实现一个业务
 
-![image-20210129101348544](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129101348544.png)
+![image-20210129101348544](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129101348544.png)
 
 1、UserDao接口
 
@@ -101,7 +101,7 @@ public void setUserDao(UserDao userDao) {
 
 思想的转变：
 
-![image-20210129101408314](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129101408314.png)
+![image-20210129101408314](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129101408314.png)
 
 - 原来程序主动创建对象，控制权在程序员手上，
 - 使用set注入后，程序不再具有主动性，而是变成了被动接收对象
@@ -165,7 +165,7 @@ public void setUserDao(UserDao userDao) {
 
 输出结果
 
-![image-20210129111755312](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129111755312.png)
+![image-20210129111755312](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129111755312.png)
 
 ### 3.2、关于Spring的问题
 
@@ -203,7 +203,7 @@ IOC是一种编程思想,由主动的编程变成被动的接收
 
 模块一结构
 
-![image-20210129134733518](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129134733518.png)
+![image-20210129134733518](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129134733518.png)
 
 ```xml
 <!--使用spring创建对象，在spring这些都称为bean-->
@@ -256,7 +256,7 @@ public static void main(String[] args) {
 
 输出结果
 
-![image-20210129144444206](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129144444206.png)
+![image-20210129144444206](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129144444206.png)
 
 ### 4.2、使用有参构造创建对象
 
@@ -301,7 +301,7 @@ public static void main(String[] args) {
 
 输出结果
 
-![image-20210129144812065](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129144812065.png)
+![image-20210129144812065](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129144812065.png)
 
 在**Spring配置文件**加载的时候，容器中管理的对象就已经初始化了
 
@@ -534,7 +534,7 @@ Student
 
 ### 6.3、扩展方式注入
 
-![image-20210129170005738](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129170005738.png)
+![image-20210129170005738](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129170005738.png)
 
 不能直接使用，需要导入xml约束
 
@@ -549,7 +549,7 @@ Student
   <bean id="user" class="com.neusoft.pojo.User" p:name="p" p:age="18"/>
   ```
 
-  ![image-20210129170546326](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129170546326.png)
+  ![image-20210129170546326](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129170546326.png)
 
 - c命名空间 --> 构造器注入
 
@@ -558,11 +558,11 @@ Student
   ```
 
   ```xml
-  <!--p命名空间注入，可以直接注入属性的值：property-->
-  <bean id="user" class="com.neusoft.pojo.User" p:name="p" p:age="21"/>
+  <!--c命名空间注入，可以直接注入属性的值：property-->
+  <bean id="user" class="com.neusoft.pojo.User" c:name="p" c:age="21"/>
   ```
 
-  ![image-20210129165713440](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129165713440.png)
+  ![image-20210129165713440](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129165713440.png)
 
 ### 6.4、bean作用域
 
@@ -579,13 +579,13 @@ Student
 
 spring默认单例模式
 
-![z](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129171432307.png)
+![image-20210129171432307](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129171432307.png)
 
 
 
 - 单例模式
 
-  ![singleton](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\singleton.png)
+  ![singleton](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/singleton.png)
 
   ```xml
   <bean id="accountService" class="com.hitech.example" scope="singleton"/>
@@ -593,7 +593,7 @@ spring默认单例模式
 
 - 原型模式
 
-  ![prototype](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\prototype.png)
+  ![prototype](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/prototype.png)
 
   ```xml
   <bean id="accountService" class="com.hitech.example" scope="prototype"/>
@@ -634,7 +634,7 @@ public void test2(){
 
 一个人有两个宠物（猫和狗）
 
-![image-20210129175817998](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210129175817998.png)
+![image-20210129175817998](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210129175817998.png)
 
 ```java
 public class Dog {
@@ -743,7 +743,7 @@ public void test1(){
 
 **@Autowired**
 
-![image-20210201104134678](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210201104134678.png)
+![image-20210201104134678](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210201104134678.png)
 
 直接在属性上使用
 
@@ -775,7 +775,7 @@ id要等同于实体类的属性名（cat -- cat）
 
 - PS：@Nullable和@Autowired(required = false)
 
-  ![image-20210201105412335](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210201105412335.png)
+  ![image-20210201105412335](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210201105412335.png)
 
   @Nullable作用为：允许属性为空，可以避免报空指针异常
   而@Autowired(required = false)显示定义则说明这个对象可以为空，否则不允许为空
@@ -807,7 +807,7 @@ public class People {
 
 在Spring4之后，要使用注解开发，要导入AOP【目前在gradle中，webmvc下包含了aop，无需手动导入】
 
-![image-20210201113207475](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210201113207475.png)
+![image-20210201113207475](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210201113207475.png)
 
 使用注解开发需要在**Spring配置文件**中导入context约束，增加注解支持。
 
@@ -969,7 +969,7 @@ public void test(){
 
 **代理模式是SpringAOP的底层**，【面试重点：SpringAOP，SpringMVC】
 
-![image-20210201145623270](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210201145623270.png)
+![image-20210201145623270](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210201145623270.png)
 
 ### 10.1、静态代理
 
@@ -1058,7 +1058,7 @@ public class Client {
 
 ### 10.2、AOP解析
 
-![image-20210201160205571](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210201160205571.png)
+![image-20210201160205571](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210201160205571.png)
 
 UserService接口
 
@@ -1221,7 +1221,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
 
 AOP（Aspect Oriented Programming）意为：**面向切面编程**，通过预编译方式和运行期动态代理实现程序功能的统一维护的一种技术，AOP是OOP的延续，是软件开发中的一个热点，也是Spring框架中的一个重要内容，是函数式编程的一种行生范型。利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑各部分之间的耦合度降低,提高程序的可重用性，同时提高了开发的效率。
 
-![image-20210202101719453](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210202101719453.png)
+![image-20210202101719453](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210202101719453.png)
 
 ### 11.2、AOP在Spring中的应用
 
@@ -1237,7 +1237,7 @@ AOP（Aspect Oriented Programming）意为：**面向切面编程**，通过预�
 - 切入点（Pointcut）：切面通知 执行的“地点“的定义。【invoke】
 - 连接点（Joinpoint）：与切入点匹配的执行点。【Methor】
 
-![image-20210202103157266](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210202103157266.png)
+![image-20210202103157266](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210202103157266.png)
 
 SpringAOP中，通过Advice定义横切逻辑，Spring中支持5种类型的Advice：
 
@@ -1263,7 +1263,7 @@ implementation group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
 
 项目结构
 
-![image-20210202113911968](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210202113911968.png)
+![image-20210202113911968](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210202113911968.png)
 
 - Log包
 
@@ -1349,7 +1349,7 @@ public class UserServiceImpl implements UserService{
 
 资源文件：**Spring配置文件**
 
-![image-20210202115001673](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210202115001673.png)
+![image-20210202115001673](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210202115001673.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1503,7 +1503,7 @@ public class AnnotationPointCut {
 
 执行结果
 
-![image-20210202141835421](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210202141835421.png)
+![image-20210202141835421](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210202141835421.png)
 
 ## 12、Spring整合Mybatis
 
@@ -1709,7 +1709,7 @@ public void testSpringMybatis(){
 
 - 输出结果
 
-![image-20210203101835910](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210203101835910.png)
+![image-20210203101835910](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210203101835910.png)
 
 #### 12.2.2、核心代码
 
@@ -1772,11 +1772,11 @@ public class MybatisUtils {
 
 *通配符无法使用，会抛出异常
 
-![image-20210202165427674](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210202165427674.png)
+![image-20210202165427674](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210202165427674.png)
 
 [警告]mapperLocations无法找到匹配的文件，[报错]Mapper未注册
 
-![image-20210202165331811](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210202165331811.png)
+![image-20210202165331811](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210202165331811.png)
 
 通过修改，在classpath后加入一个星号*，即可解决问题，推测是由于spring-jdbc版本过高，不支持通配符所导致。
 
@@ -1973,11 +1973,11 @@ spring-dao配置文件中配置事务
 
 添加事务前的执行结果
 
-![image-20210203145929563](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210203145929563.png)
+![image-20210203145929563](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210203145929563.png)
 
 添加事务后的执行结果
 
-![image-20210203150038423](C:\Users\LiuFeiyu\AppData\Roaming\Typora\typora-user-images\image-20210203150038423.png)
+![image-20210203150038423](https://raw.githubusercontent.com/LuoTianyi712/Typora-pic/master/typora/image-20210203150038423.png)
 
 【小王】并没有被添加进去，说明事务执行成功了
 
